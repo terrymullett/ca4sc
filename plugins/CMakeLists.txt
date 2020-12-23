@@ -13,7 +13,8 @@ endif()
 
 add_library(CAUGens MODULE CAUGens.cpp) 
 
+#assuming ca4sc souce tree is peer to supercollider source tree
 #to compile run:
-#cmake -DSC_PATH=/Users/yota/Deployment/supercollider .
+#cmake -DSC_PATH=../../supercollider .
 #then
 #make
