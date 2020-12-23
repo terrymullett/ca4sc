@@ -17,4 +17,4 @@ add_library(CAUGens MODULE CAUGens.cpp)
 #to compile run:
 #cmake -DSC_PATH=../../supercollider .
 #then
-#make
+#cmake --build . --config Release
